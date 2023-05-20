@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>withinNaija</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./image/WhatsApp Image 2023-04-26 at 18.23.30.jpg" class="logo" alt="">
+                <ul id="sidemenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">services</a></li>
+                    <li><a href="#portfolio">porfolio</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <i class="fa-regular fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi am <span>Blessing</span>  <br>
+                    from Osun state, Nigeria</h1>
+            </div>
+        </div>
+    </div>
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./image/IMG_0089.jpeg" alt=""width="100%" height="100%" >
+                    </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Meet Withinnaija, A Talented And Dynamic Web Developer With A Passion For Creating Stunning And Functional Websites. With A Strong Background In Programming And A Keen Eye For Design, I Brings A Unique Blend Of Technical Expertise And Creativity To Every Project.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                        <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>Web development<span><br>Html Css Javascript</span></li>
+                            <li>Web Designing<span><br> Wordpress</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>2022 - till date<span><br>Web Development</span></li>
+                            <li>2021 - till date<span><br> Wordpress</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>2022<span><br>OND</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+        <!--  about end -->
+        <div id="services">
+            <div class="container">
+                <div class="sub-title">My Services</div>
+                <div class="services-list">
+                    <div>
+                        <div class="icon">
+                        <i class="fa-solid fa-code"></i></div>
+                        <h2>Web Development</h2>
+                        <p>I specialize in building responsive and user-friendly websites using cutting-edge technologies like HTML, CSS, JavaScript, and frameworks such as React. I create dynamic web pages that cater to specific business requirements, ensuring seamless user experiences and optimal performance.</p>
+                    </div>
+                    <div>
+                        <div class="service-image"> <img class="img" src="./image/WhatsApp Image 2023-01-18 at 09.54.31.jpg" alt=""
+                            width="50%" height="50%"></div>
+                        <h2>Maintenance and Support</h2>
+                        <p> Alongside development, I offer maintenance and support services to ensure the smooth operation of applications. You address bugs, provide software updates, and offer ongoing technical assistance to keep systems up-to-date and secure.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ------------porfolio----------- -->
+            <div id="portfolio">
+                <div class="container">
+                    <h1 class="sub-title">My Work</h1>
+                    <div class="work-list">
+                        <div class="work">
+                            <img src="./image/calculator.jpg" alt="" width="40%" height="40%">
+                            <div class="layer">
+                                <h3>Calculator</h3>
+                                <p>Well function calculator made up with html, css and javascript</p>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="./image/dictionary.jpg" alt="" width="40%" height="60%">
+                            <div class="layer">
+                                <h3>Dictionary</h3>
+                                <p>well design dictionary that search meaning of words and give out audio sound of what you input</p>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="./image/image-search.jpg" alt="" width="40%" height="40%">
+                            <div class="layer">
+                                <h3>image search app</h3>
+                                <p>this web app search for any image of your choice with the use of splash api </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <a href="" class="btn">Learn More</a>
+            </div>
+
+        <!-- ------------porfolio end here----------- -->
+
+    <!-- -------------contact---------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">contact me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> withinnaija@gmail.com</p>
+                    <p> <i class="fa-solid fa-phone"></i> 08105274154</p>
+                    <div class="social-icon">
+                        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/withinnaija"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://wa.me/+2348105274154"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://instagram.com/codewithwithinnaija"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                        <form action="">
+                            <input type="text" name="" placeholder="Name" id="" required>
+                            <input type="email" name="" placeholder="Email" id="" required>
+                            <textarea name="" placeholder="your messages" id="" cols="30" rows="10"></textarea>
+                            <button type="submit" class="btn btn2">submit</button>
+                        </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------contact end here---------------- -->
+
+    <!-- ---------------footer----------- -->
+
+    <div class="footer">
+        <p>copyright &copy; 2023 <a href="" class="text-light">withinnaija</a> </p>
+    </div>
+    <!-- ---------------footer end here ----------- -->
+
+
+
+        <script src="./javascript/index.js"></script>
+</body>
+</html>
